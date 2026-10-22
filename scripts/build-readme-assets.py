@@ -91,6 +91,8 @@ UI_MARKS = {
     'graph': '<circle cx="5" cy="6" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="20" cy="19" r="2"/><path d="m7 7 3.5 3.5M14 11l3.5-4.5M10.5 13.5 6.5 17M13.5 13.5l5 4"/>',
     'vr': '<path d="M5 7h14a3 3 0 0 1 3 3v6a2 2 0 0 1-2 2h-4l-4-3-4 3H4a2 2 0 0 1-2-2v-6a3 3 0 0 1 3-3Z"/><circle cx="7" cy="12" r="1.5"/><circle cx="17" cy="12" r="1.5"/>',
     'voice': '<rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3m-4 0h8"/>',
+    'profile': '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8" cy="9" r="2"/><path d="M5 16a3 3 0 0 1 6 0m3-8h4m-4 4h4m-4 4h3"/>',
+    'demo': '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/>',
 }
 
 def badge(filename, label, mark):
@@ -133,6 +135,9 @@ for filename, label, mark in [
     ('apis', 'Backend APIs', 'backend'), ('delivery', 'Deployment', 'deployment'),
     ('linkedin', 'LinkedIn', 'linkedin'),
     ('email', 'Get in touch', 'email'),
+    ('professional', 'Professional profile', 'profile'),
+    ('x', '@Blancochuydev', 'x'), ('go', 'Go CLI', 'go'),
+    ('live-demo', 'Live demo', 'demo'),
     ('github', 'GitHub', 'github'), ('vercel', 'Vercel', 'vercel'),
     ('cloudflare', 'Cloudflare', 'cloudflare'),
     ('qwen', 'Qwen 3.8 Flash Next', 'qwen'),

@@ -9,15 +9,15 @@ I ship production SaaS end to end: Next.js/TypeScript, Laravel, Python, payments
 
 Co-founder and tech lead at Fencode. Built SaleShow.app (99.8% uptime, sub-600 ms APIs) and QueueUp.quest (Stripe/Wise, Discord OAuth).
 
-I build AI agents and agent tooling: MCP servers, [git-why](https://github.com/Blancochuy/git-why) (Go CLI for coding agents) and production LLM agents at Club Hipico La Silla.
+I build AI agents and agent tooling: MCP servers, [git-why](https://github.com/Blancochuy/git-why) (Go CLI for coding agents) and self-hosted LLM agents.
 
 Monterrey, Mexico (UTC-6) · English C1 · Open to remote US roles: Full-Stack, AI/Agent, Forward Deployed.
 
 <p>
   <a href="https://blancochuy.dev"><img src="./assets/badges/portfolio.png" alt="Portfolio" height="30"></a>
-  <a href="https://blancochuy.dev/professional">Professional profile</a> ·
+  <a href="https://blancochuy.dev/professional"><img src="./assets/badges/professional.svg" alt="Professional profile" height="30"></a>
   <a href="https://www.linkedin.com/in/jesusblancoc/"><img src="./assets/badges/linkedin.svg" alt="LinkedIn" height="30"></a>
-  <a href="https://x.com/Blancochuydev">X: @Blancochuydev</a> ·
+  <a href="https://x.com/Blancochuydev"><img src="./assets/badges/x.svg" alt="X: @Blancochuydev" height="30"></a>
   <a href="mailto:contact@blancochuy.dev"><img src="./assets/badges/email.svg" alt="Email contact@blancochuy.dev" height="30"></a>
 </p>
 
@@ -47,7 +47,7 @@ Full-stack development for a gaming platform, including payments and community i
 
 <h3><picture><source media="(max-width: 800px)" srcset="./assets/projects/jarvis-compact.png"><img src="./assets/projects/jarvis.png" alt="JARVIS and Hermes: self hosted AI agent. Personal AI infrastructure lab." width="1120"></picture></h3>
 
-My self-hosted agent, built on [Hermes](https://github.com/NousResearch/hermes-agent) and extended with modular graph memory, custom tools and Siri voice access.
+My self-hosted Telegram agent, built on [Hermes](https://github.com/NousResearch/hermes-agent) and extended with modular graph memory, custom tools and Siri voice access.
 
 **Agent runtime**
 
@@ -79,6 +79,8 @@ My self-hosted agent, built on [Hermes](https://github.com/NousResearch/hermes-a
 
 Infisical manages agent secrets. Remote access uses Cloudflare Tunnels and Zero Trust with authentication codes.
 
+Also supports scheduled jobs, subagents and approval gates.
+
 <p>
   <img src="./assets/badges/github.svg" alt="GitHub" height="30">
   <img src="./assets/badges/vercel.svg" alt="Vercel" height="30">
@@ -88,16 +90,27 @@ Infisical manages agent secrets. Remote access uses Cloudflare Tunnels and Zero 
 
 </details>
 
-## What I'm building
-
-- **AI grants agent for Somos El Cambio**: crawls funding calls, scores them with an LLM, stores results in Postgres and sends alerts plus a weekly digest. Runs every morning in production.
-- **Tender and bid research agent** at Club Hipico La Silla.
-- **Hermes**: my personal Telegram agent, with MCP and API tools for GitHub, Coolify, Supabase, Cloudflare and Vercel. Includes memory, cron jobs, subagents and approval gates.
-
 ## Open source
 
-- **[git-why](https://github.com/Blancochuy/git-why)**: explains why code exists by reading git history. Go CLI plus an MCP server, built for coding agents.
-- **[emoji-styles](https://github.com/Blancochuy/emoji-styles)**: live at [emoji-styles.space](https://emoji-styles.space).
+<h3><a href="https://github.com/Blancochuy/git-why"><img src="./assets/brands/git.svg" alt="Git history" width="24" height="24"> git-why</a></h3>
+
+Git history context for coding agents, exposed through a Go CLI and MCP server.
+
+<p>
+  <img src="./assets/badges/go.svg" alt="Go CLI" height="30">
+  <img src="./assets/badges/mcp.svg" alt="MCP server" height="30">
+  <a href="https://github.com/Blancochuy/git-why"><img src="./assets/badges/github.svg" alt="git-why source code on GitHub" height="30"></a>
+</p>
+
+<h3><a href="https://github.com/Blancochuy/emoji-styles"><img src="./assets/brands/emoji-styles.svg" alt="emoji-styles favicon" width="24" height="24"> emoji-styles</a></h3>
+
+A typed toolkit for custom emoji, interchangeable styles and accessible fallbacks.
+
+<p>
+  <img src="./assets/badges/typescript.svg" alt="TypeScript" height="30">
+  <a href="https://github.com/Blancochuy/emoji-styles"><img src="./assets/badges/github.svg" alt="emoji-styles source code on GitHub" height="30"></a>
+  <a href="https://emoji-styles.space"><img src="./assets/badges/live-demo.svg" alt="Try emoji-styles live" height="30"></a>
+</p>
 
 ## Core toolkit
 

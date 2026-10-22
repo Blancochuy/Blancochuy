@@ -11,6 +11,9 @@
 - Qwen and MiniMax marks: https://github.com/lobehub/lobe-icons (MIT), with original source URLs recorded in `technology-icons.json`.
 - Hermes badge: the official favicon declared by https://hermes-agent.nousresearch.com/ (exact asset URL recorded in `brands/sources.json`).
 - Infisical badge: the official favicon from https://infisical.com/infisical.ico (also recorded in `brands/sources.json`).
+- `brands/emoji-styles.svg`: the actual favicon declared by https://emoji-styles.space (asset URL recorded in `brands/sources.json`), also published in the owner's emoji-styles repository.
+- `brands/git.svg`: the Git mark from Simple Icons, used to identify git-why's Git-history focus; it is not presented as a separate git-why brand logo.
+- Professional-profile and live-demo glyphs: locally authored line icons matching the existing badges. X and Go marks come from Simple Icons.
 
 The JARVIS section distinguishes Hermes Agent, Qwen 3.8 Flash Next as the primary
 model, Llama and MiniMax fallbacks, custom capabilities, and protected remote
