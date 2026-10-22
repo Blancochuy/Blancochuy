@@ -9,13 +9,13 @@
   <a href="mailto:contact@blancochuy.dev"><img src="./assets/badges/email.svg" alt="Email contact@blancochuy.dev" height="30"></a>
 </p>
 
-I build and operate software from requirements to production. Co-founder at Fencode, with 4+ years of experience across enterprise applications, SaaS products and AI-enabled workflows.
+Fencode co-founder with 4+ years building and operating SaaS products and enterprise software.
 
 ## Selected work
 
 <h3><a href="https://saleshow.app"><picture><source media="(max-width: 800px)" srcset="./assets/projects/saleshow-compact.png"><img src="./assets/projects/saleshow.png" alt="Saleshow.app — B2B SaaS for LATAM. Architecture, APIs and product delivery." width="1120"></picture></a></h3>
 
-B2B SaaS for LATAM clients. Owned application architecture, backend APIs, database workflows, deployment and production support.
+B2B SaaS for LATAM. Owned architecture, backend APIs, deployment and production support.
 
 <p>
   <img src="./assets/badges/architecture.svg" alt="Architecture" height="30">
@@ -25,7 +25,7 @@ B2B SaaS for LATAM clients. Owned application architecture, backend APIs, databa
 
 <h3><a href="https://queueup.quest"><picture><source media="(max-width: 800px)" srcset="./assets/projects/queueup-compact.png"><img src="./assets/projects/queueup.png" alt="QueueUp.quest — gaming platform. Payments, players and community integrations." width="1120"></picture></a></h3>
 
-Full-stack contributions to a gaming platform, including payment and community integrations. Built with Next.js, TypeScript and Supabase, with Stripe and Wise integrations.
+Full-stack development for a gaming platform, including payments and community integrations.
 
 <p>
   <img src="./assets/badges/nextjs.svg" alt="Next.js" height="30">
@@ -37,9 +37,7 @@ Full-stack contributions to a gaming platform, including payment and community i
 
 <h3><picture><source media="(max-width: 800px)" srcset="./assets/projects/jarvis-compact.png"><img src="./assets/projects/jarvis.png" alt="JARVIS / Hermes — self-hosted AI agent. Personal AI infrastructure lab." width="1120"></picture></h3>
 
-JARVIS is my personal AI agent, built on [Hermes Agent](https://github.com/NousResearch/hermes-agent). Its primary model is **Qwen 3.8 Flash Next**, with **Llama** and **MiniMax** as fallbacks.
-
-I've extended it with modular graph memory, Notion integrations and custom tools, including a VR dashboard and voice access from my iPhone through Siri Shortcuts. It runs on a dedicated Mini PC with Docker and Coolify. Remote access goes through Cloudflare Tunnels and Zero Trust with authentication codes.
+My self-hosted agent, built on [Hermes](https://github.com/NousResearch/hermes-agent) and extended with modular graph memory, custom tools and Siri voice access.
 
 **Agent runtime**
 
@@ -47,6 +45,7 @@ I've extended it with modular graph memory, Notion integrations and custom tools
   <a href="https://github.com/NousResearch/hermes-agent"><img src="./assets/badges/hermes.png" alt="Hermes Agent" height="30"></a>
   <img src="./assets/badges/docker.svg" alt="Docker" height="30">
   <img src="./assets/badges/coolify.svg" alt="Coolify" height="30">
+  <img src="./assets/badges/mcp.svg" alt="MCP" height="30">
 </p>
 
 **Models**
@@ -66,15 +65,17 @@ I've extended it with modular graph memory, Notion integrations and custom tools
   <img src="./assets/badges/siri-shortcuts.svg" alt="Voice access through Siri Shortcuts on iPhone" height="30">
 </p>
 
-**Access & tools**
+**Access & secrets**
 
 <p>
-  <img src="./assets/badges/mcp.svg" alt="MCP" height="30">
   <img src="./assets/badges/zero-trust.svg" alt="Cloudflare Tunnels and Zero Trust with authentication codes" height="30">
+  <a href="https://infisical.com"><img src="./assets/badges/infisical.png" alt="Infisical — secrets management for the agent" height="30"></a>
 </p>
 
 <details>
 <summary>Connected tooling</summary>
+
+Infisical manages agent secrets. Remote access uses Cloudflare Tunnels and Zero Trust with authentication codes.
 
 <p>
   <img src="./assets/badges/github.svg" alt="GitHub" height="30">

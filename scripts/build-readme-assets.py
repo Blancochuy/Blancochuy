@@ -144,4 +144,5 @@ for filename, label, mark in [
     badge(filename, label, mark)
 image_badge('portfolio', 'Portfolio', 'brands/portfolio.png')
 image_badge('hermes', 'Hermes Agent', 'brands/hermes.png')
+image_badge('infisical', 'Infisical', 'brands/infisical.png')
 print('Generated project headers, responsive toolkit and badges with explicit icons.')
