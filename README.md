@@ -1,21 +1,31 @@
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-still.png">
-  <img src="./assets/blancochuy-profile.gif" alt="Jesus Blanco, full-stack engineer based in Monterrey, Mexico. Building SaaS products and AI-enabled tools. A beige retro computer, a compact self-hosting server and JARVIS, a floating green AI orb." width="1200">
+  <img src="./assets/blancochuy-profile.gif" alt="Jesus Blanco, full stack engineer based in Monterrey, Mexico. Building SaaS products and AI enabled tools. A beige retro computer, a compact self hosting server and JARVIS, a floating green AI orb." width="1200">
 </picture>
 
+### Jesus Blanco · Full-Stack & AI Engineer
+
+I ship production SaaS end to end: Next.js/TypeScript, Laravel, Python, payments, CI/CD and self-hosted infra.
+
+Co-founder and tech lead at Fencode. Built SaleShow.app (99.8% uptime, sub-600 ms APIs) and QueueUp.quest (Stripe/Wise, Discord OAuth).
+
+I build AI agents and agent tooling: MCP servers, [git-why](https://github.com/Blancochuy/git-why) (Go CLI for coding agents) and production LLM agents at Club Hipico La Silla.
+
+Monterrey, Mexico (UTC-6) · English C1 · Open to remote US roles: Full-Stack, AI/Agent, Forward Deployed.
+
 <p>
-  <a href="https://blancochuy.dev"><img src="./assets/badges/portfolio.png" alt="Visit my portfolio" height="30"></a>
-  <a href="https://linkedin.com/in/jesusblancoc"><img src="./assets/badges/linkedin.svg" alt="Connect on LinkedIn" height="30"></a>
+  <a href="https://blancochuy.dev"><img src="./assets/badges/portfolio.png" alt="Portfolio" height="30"></a>
+  <a href="https://blancochuy.dev/professional">Professional profile</a> ·
+  <a href="https://www.linkedin.com/in/jesusblancoc/"><img src="./assets/badges/linkedin.svg" alt="LinkedIn" height="30"></a>
+  <a href="https://x.com/Blancochuydev">X: @Blancochuydev</a> ·
   <a href="mailto:contact@blancochuy.dev"><img src="./assets/badges/email.svg" alt="Email contact@blancochuy.dev" height="30"></a>
 </p>
 
-Fencode co-founder with 4+ years building and operating SaaS products and enterprise software.
-
 ## Selected work
 
-<h3><a href="https://saleshow.app"><picture><source media="(max-width: 800px)" srcset="./assets/projects/saleshow-compact.png"><img src="./assets/projects/saleshow.png" alt="Saleshow.app — B2B SaaS for LATAM. Architecture, APIs and product delivery." width="1120"></picture></a></h3>
+<h3><a href="https://saleshow.app"><picture><source media="(max-width: 800px)" srcset="./assets/projects/saleshow-compact.png"><img src="./assets/projects/saleshow.png" alt="SaleShow.app: B2B SaaS for LATAM. Architecture, APIs and product delivery." width="1120"></picture></a></h3>
 
-B2B SaaS for LATAM. Owned architecture, backend APIs, deployment and production support.
+B2B SaaS for LATAM. Owned architecture, backend APIs, deployment and production support. Running at 99.8% uptime with sub-600 ms API response times.
 
 <p>
   <img src="./assets/badges/architecture.svg" alt="Architecture" height="30">
@@ -23,7 +33,7 @@ B2B SaaS for LATAM. Owned architecture, backend APIs, deployment and production 
   <img src="./assets/badges/delivery.svg" alt="Deployment" height="30">
 </p>
 
-<h3><a href="https://queueup.quest"><picture><source media="(max-width: 800px)" srcset="./assets/projects/queueup-compact.png"><img src="./assets/projects/queueup.png" alt="QueueUp.quest — gaming platform. Payments, players and community integrations." width="1120"></picture></a></h3>
+<h3><a href="https://queueup.quest"><picture><source media="(max-width: 800px)" srcset="./assets/projects/queueup-compact.png"><img src="./assets/projects/queueup.png" alt="QueueUp.quest: gaming platform. Payments, players and community integrations." width="1120"></picture></a></h3>
 
 Full-stack development for a gaming platform, including payments and community integrations.
 
@@ -35,7 +45,7 @@ Full-stack development for a gaming platform, including payments and community i
   <img src="./assets/badges/wise.svg" alt="Wise" height="30">
 </p>
 
-<h3><picture><source media="(max-width: 800px)" srcset="./assets/projects/jarvis-compact.png"><img src="./assets/projects/jarvis.png" alt="JARVIS / Hermes — self-hosted AI agent. Personal AI infrastructure lab." width="1120"></picture></h3>
+<h3><picture><source media="(max-width: 800px)" srcset="./assets/projects/jarvis-compact.png"><img src="./assets/projects/jarvis.png" alt="JARVIS and Hermes: self hosted AI agent. Personal AI infrastructure lab." width="1120"></picture></h3>
 
 My self-hosted agent, built on [Hermes](https://github.com/NousResearch/hermes-agent) and extended with modular graph memory, custom tools and Siri voice access.
 
@@ -48,14 +58,6 @@ My self-hosted agent, built on [Hermes](https://github.com/NousResearch/hermes-a
   <img src="./assets/badges/mcp.svg" alt="MCP" height="30">
 </p>
 
-**Models**
-
-<p>
-  <img src="./assets/badges/qwen.svg" alt="Primary LLM: Qwen 3.8 Flash Next" height="30">
-  <img src="./assets/badges/llama.svg" alt="Fallback LLM: Llama" height="30">
-  <img src="./assets/badges/minimax.svg" alt="Fallback LLM: MiniMax" height="30">
-</p>
-
 **Custom extensions**
 
 <p>
@@ -65,11 +67,11 @@ My self-hosted agent, built on [Hermes](https://github.com/NousResearch/hermes-a
   <img src="./assets/badges/siri-shortcuts.svg" alt="Voice access through Siri Shortcuts on iPhone" height="30">
 </p>
 
-**Access & secrets**
+**Access and secrets**
 
 <p>
   <img src="./assets/badges/zero-trust.svg" alt="Cloudflare Tunnels and Zero Trust with authentication codes" height="30">
-  <a href="https://infisical.com"><img src="./assets/badges/infisical.png" alt="Infisical — secrets management for the agent" height="30"></a>
+  <a href="https://infisical.com"><img src="./assets/badges/infisical.png" alt="Infisical: secrets management for the agent" height="30"></a>
 </p>
 
 <details>
@@ -85,6 +87,17 @@ Infisical manages agent secrets. Remote access uses Cloudflare Tunnels and Zero 
 </p>
 
 </details>
+
+## What I'm building
+
+- **AI grants agent for Somos El Cambio**: crawls funding calls, scores them with an LLM, stores results in Postgres and sends alerts plus a weekly digest. Runs every morning in production.
+- **Tender and bid research agent** at Club Hipico La Silla.
+- **Hermes**: my personal Telegram agent, with MCP and API tools for GitHub, Coolify, Supabase, Cloudflare and Vercel. Includes memory, cron jobs, subagents and approval gates.
+
+## Open source
+
+- **[git-why](https://github.com/Blancochuy/git-why)**: explains why code exists by reading git history. Go CLI plus an MCP server, built for coding agents.
+- **[emoji-styles](https://github.com/Blancochuy/emoji-styles)**: live at [emoji-styles.space](https://emoji-styles.space).
 
 ## Core toolkit
 
