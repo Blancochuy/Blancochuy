@@ -1,16 +1,26 @@
-## Hi there 👋
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-still.png">
+  <img src="./assets/blancochuy-profile.gif" alt="Jesus Blanco, full-stack engineer based in Monterrey, Mexico. Building SaaS products and AI-enabled tools. A beige retro computer, a compact self-hosting server and JARVIS, a floating green AI orb." width="1200">
+</picture>
 
-<!--
-**Blancochuy/Blancochuy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[Portfolio](https://blancochuy.dev) · [LinkedIn](https://linkedin.com/in/jesusblancoc) · [Email](mailto:contact@blancochuy.dev)
 
-Here are some ideas to get you started:
+I build and operate software from requirements to production. Co-founder at Fencode, with 4+ years of experience across enterprise applications, SaaS products and AI-enabled workflows.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Selected work
+
+### [Saleshow.app](https://saleshow.app)
+
+B2B SaaS for LATAM clients. Owned application architecture, backend APIs, database workflows, deployment and production support.
+
+### [QueueUp.quest](https://queueup.quest)
+
+Full-stack contributions to a gaming platform, including payment and community integrations. Built with Next.js, TypeScript, Supabase and Stripe.
+
+### JARVIS / AI Infrastructure Lab
+
+My self-hosted AI agent, JARVIS, runs on a dedicated Mini PC with Docker and Coolify. MCP integrations connect the agent to isolated development resources and deployment tools with scoped access.
+
+## Core toolkit
+
+<img src="./assets/technology-stack.svg" alt="TypeScript, React, Next.js, Python, Docker, Supabase and MCP" width="1120">
