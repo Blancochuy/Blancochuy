@@ -6,6 +6,14 @@
 - `brands/portfolio.png`: the favicon served by https://blancochuy.dev/favicon.ico
 - `brands/jarvis.png`: an original geometric mark representing the owner's personal AI agent.
 - Technology paths: https://github.com/simple-icons/simple-icons, with individual source URLs recorded in `technology-icons.json`.
+- LinkedIn mark: Bootstrap Icons, https://github.com/twbs/icons/blob/main/icons/linkedin.svg (MIT).
+- Architecture, backend, deployment, email, graph memory, VR and voice glyphs: locally authored SVG line icons with a consistent 1.7 px stroke.
+- Qwen and MiniMax marks: https://github.com/lobehub/lobe-icons (MIT), with original source URLs recorded in `technology-icons.json`.
+- Hermes badge: the official favicon declared by https://hermes-agent.nousresearch.com/ (exact asset URL recorded in `brands/sources.json`).
+
+The JARVIS section distinguishes Hermes Agent, Qwen 3.8 Flash Next as the primary
+model, Llama and MiniMax fallbacks, custom capabilities, and protected remote
+access. These details and QueueUp's Wise integration were supplied by the owner.
 
 Favicons were retrieved on October 22, 2026. They identify the owner's linked projects;
 their colors are preserved. Badges describe roles and technologies, not live metrics.
