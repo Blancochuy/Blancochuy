@@ -41,11 +41,11 @@ def jarvis_mark():
         im.alpha_composite(ring.rotate(angle, resample=Image.Resampling.BICUBIC))
     im.save(ASSETS / 'brands/jarvis.png')
 
-def project_header(name, title, subtitle, category, light=False):
+def project_header(name, title, subtitle, category, light=False, width=1120):
     bg = '#eae4d8' if light else '#20262b'
     ink = '#262c29' if light else '#f2eee5'
     secondary = '#576259' if light else '#b3c3b9'
-    im = Image.new('RGB', (1120 * SCALE, 128 * SCALE), bg)
+    im = Image.new('RGB', (width * SCALE, 128 * SCALE), bg)
     d = ImageDraw.Draw(im)
     rect(d, (0, 0, 5, 128), '#a3d4ac')
     rect(d, (25, 25, 103, 103), '#faf7ef' if light else '#151b1e', radius=13)
@@ -59,12 +59,29 @@ def project_header(name, title, subtitle, category, light=False):
     text(d, (126, 23), title, 32, ink, bold=True)
     text(d, (128, 75), subtitle, 17, secondary)
     # Descriptive category, not an unverified uptime or activity status.
-    f = font(12, mono=True)
-    width = d.textbbox((0, 0), category, font=f)[2] / SCALE + 28
-    x = 1090 - width
-    rect(d, (x, 29, 1090, 58), '#d8e2d4' if light else '#31463a', radius=5)
-    text(d, (x + 14, 34), category, 12, '#3c5c44' if light else '#c1e2ca', mono=True)
-    im.save(ASSETS / f'projects/{name}.png', optimize=True)
+    if width > 800:
+        f = font(12, mono=True)
+        badge_width = d.textbbox((0, 0), category, font=f)[2] / SCALE + 28
+        x = width - 30 - badge_width
+        rect(d, (x, 29, width - 30, 58), '#d8e2d4' if light else '#31463a', radius=5)
+        text(d, (x + 14, 34), category, 12, '#3c5c44' if light else '#c1e2ca', mono=True)
+    suffix = '-compact' if width < 800 else ''
+    im.save(ASSETS / f'projects/{name}{suffix}.png', optimize=True)
+
+def compact_toolkit():
+    rows = [
+        [('typescript', 'TypeScript'), ('react', 'React'), ('nextdotjs', 'Next.js'), ('python', 'Python')],
+        [('docker', 'Docker'), ('supabase', 'Supabase'), ('modelcontextprotocol', 'MCP')],
+    ]
+    marks = []
+    for row, items in enumerate(rows):
+        for i, (name, label) in enumerate(items):
+            x = (i + 1) * 640 / (len(items) + 1)
+            y = 22 + row * 112
+            icon = ICONS[name]
+            paths = ''.join(f'<path d="{escape(p)}"/>' for p in icon['paths'])
+            marks.append(f'<svg x="{x-22}" y="{y}" width="44" height="44" viewBox="{icon["viewBox"]}" fill="#bed2c2">{paths}</svg><text x="{x}" y="{y+73}" text-anchor="middle" font-family="Consolas,monospace" font-size="16" fill="#e4e9e5">{label}</text>')
+    (ASSETS / 'technology-stack-compact.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240"><title>TypeScript, React, Next.js, Python, Docker, Supabase and MCP</title><rect width="640" height="240" rx="6" fill="#1b2025"/>' + ''.join(marks) + '</svg>', encoding='utf-8')
 
 def badge(filename, label, mark=None):
     icon = ''
@@ -91,9 +108,11 @@ for directory in ['projects', 'badges', 'brands']:
     (ASSETS / directory).mkdir(parents=True, exist_ok=True)
 ICONS = json.loads((ASSETS / 'technology-icons.json').read_text(encoding='utf-8'))
 jarvis_mark()
-project_header('saleshow', 'Saleshow.app', 'Architecture, APIs and product delivery', 'B2B SAAS / LATAM', light=True)
-project_header('queueup', 'QueueUp.quest', 'Payments, players and community integrations', 'GAMING PLATFORM')
-project_header('jarvis', 'JARVIS', 'A personal AI agent, running on my own infrastructure', 'SELF-HOSTED AI')
+for width in [1120, 600]:
+    project_header('saleshow', 'Saleshow.app', 'Architecture, APIs and product delivery', 'B2B SAAS / LATAM', light=True, width=width)
+    project_header('queueup', 'QueueUp.quest', 'Payments, players and community integrations', 'GAMING PLATFORM', width=width)
+    project_header('jarvis', 'JARVIS', 'A personal AI agent on my own infrastructure', 'SELF-HOSTED AI', width=width)
+compact_toolkit()
 for filename, label, mark in [
     ('typescript', 'TypeScript', 'typescript'), ('nextjs', 'Next.js', 'nextdotjs'),
     ('supabase', 'Supabase', 'supabase'), ('docker', 'Docker', 'docker'),
@@ -105,4 +124,4 @@ for filename, label, mark in [
 ]:
     badge(filename, label, mark)
 portfolio_badge()
-print('Generated 3 project headers, 13 badges and JARVIS mark.')
+print('Generated desktop/compact project headers, responsive toolkit, 13 badges and JARVIS mark.')

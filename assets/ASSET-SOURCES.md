@@ -20,3 +20,5 @@ python scripts/build-readme-assets.py
 
 The script uses locally installed Segoe UI on Windows or DejaVu Sans on Linux.
 The existing banner and technology strip are preserved.
+Compact project headers and a two-row toolkit are selected below 800 px to keep
+the logos and names readable on narrow displays.

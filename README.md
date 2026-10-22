@@ -13,7 +13,7 @@ I build and operate software from requirements to production. Co-founder at Fenc
 
 ## Selected work
 
-<h3><a href="https://saleshow.app"><img src="./assets/projects/saleshow.png" alt="Saleshow.app — B2B SaaS for LATAM. Architecture, APIs and product delivery." width="1120"></a></h3>
+<h3><a href="https://saleshow.app"><picture><source media="(max-width: 800px)" srcset="./assets/projects/saleshow-compact.png"><img src="./assets/projects/saleshow.png" alt="Saleshow.app — B2B SaaS for LATAM. Architecture, APIs and product delivery." width="1120"></picture></a></h3>
 
 B2B SaaS for LATAM clients. Owned application architecture, backend APIs, database workflows, deployment and production support.
 
@@ -23,7 +23,7 @@ B2B SaaS for LATAM clients. Owned application architecture, backend APIs, databa
   <img src="./assets/badges/delivery.svg" alt="Deployment" height="30">
 </p>
 
-<h3><a href="https://queueup.quest"><img src="./assets/projects/queueup.png" alt="QueueUp.quest — gaming platform. Payments, players and community integrations." width="1120"></a></h3>
+<h3><a href="https://queueup.quest"><picture><source media="(max-width: 800px)" srcset="./assets/projects/queueup-compact.png"><img src="./assets/projects/queueup.png" alt="QueueUp.quest — gaming platform. Payments, players and community integrations." width="1120"></picture></a></h3>
 
 Full-stack contributions to a gaming platform, including payment and community integrations. Built with Next.js, TypeScript, Supabase and Stripe.
 
@@ -34,7 +34,7 @@ Full-stack contributions to a gaming platform, including payment and community i
   <img src="./assets/badges/stripe.svg" alt="Stripe" height="30">
 </p>
 
-<h3><img src="./assets/projects/jarvis.png" alt="JARVIS — self-hosted AI agent. Personal AI infrastructure lab." width="1120"></h3>
+<h3><picture><source media="(max-width: 800px)" srcset="./assets/projects/jarvis-compact.png"><img src="./assets/projects/jarvis.png" alt="JARVIS — self-hosted AI agent. Personal AI infrastructure lab." width="1120"></picture></h3>
 
 My self-hosted AI agent, JARVIS, runs on a dedicated Mini PC with Docker and Coolify. MCP integrations connect the agent to isolated development resources and deployment tools with scoped access.
 
@@ -46,4 +46,7 @@ My self-hosted AI agent, JARVIS, runs on a dedicated Mini PC with Docker and Coo
 
 ## Core toolkit
 
-<img src="./assets/technology-stack.svg" alt="TypeScript, React, Next.js, Python, Docker, Supabase and MCP" width="1120">
+<picture>
+  <source media="(max-width: 800px)" srcset="./assets/technology-stack-compact.svg">
+  <img src="./assets/technology-stack.svg" alt="TypeScript, React, Next.js, Python, Docker, Supabase and MCP" width="1120">
+</picture>
