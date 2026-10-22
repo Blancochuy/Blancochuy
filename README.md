@@ -3,24 +3,92 @@
   <img src="./assets/blancochuy-profile.gif" alt="Jesus Blanco, full-stack engineer based in Monterrey, Mexico. Building SaaS products and AI-enabled tools. A beige retro computer, a compact self-hosting server and JARVIS, a floating green AI orb." width="1200">
 </picture>
 
-[Portfolio](https://blancochuy.dev) · [LinkedIn](https://linkedin.com/in/jesusblancoc) · [Email](mailto:contact@blancochuy.dev)
+<p>
+  <a href="https://blancochuy.dev"><img src="./assets/badges/portfolio.png" alt="Visit my portfolio" height="30"></a>
+  <a href="https://linkedin.com/in/jesusblancoc"><img src="./assets/badges/linkedin.svg" alt="Connect on LinkedIn" height="30"></a>
+  <a href="mailto:contact@blancochuy.dev"><img src="./assets/badges/email.svg" alt="Email contact@blancochuy.dev" height="30"></a>
+</p>
 
-I build and operate software from requirements to production. Co-founder at Fencode, with 4+ years of experience across enterprise applications, SaaS products and AI-enabled workflows.
+Fencode co-founder with 4+ years building and operating SaaS products and enterprise software.
 
 ## Selected work
 
-### [Saleshow.app](https://saleshow.app)
+<h3><a href="https://saleshow.app"><picture><source media="(max-width: 800px)" srcset="./assets/projects/saleshow-compact.png"><img src="./assets/projects/saleshow.png" alt="Saleshow.app — B2B SaaS for LATAM. Architecture, APIs and product delivery." width="1120"></picture></a></h3>
 
-B2B SaaS for LATAM clients. Owned application architecture, backend APIs, database workflows, deployment and production support.
+B2B SaaS for LATAM. Owned architecture, backend APIs, deployment and production support.
 
-### [QueueUp.quest](https://queueup.quest)
+<p>
+  <img src="./assets/badges/architecture.svg" alt="Architecture" height="30">
+  <img src="./assets/badges/apis.svg" alt="Backend APIs" height="30">
+  <img src="./assets/badges/delivery.svg" alt="Deployment" height="30">
+</p>
 
-Full-stack contributions to a gaming platform, including payment and community integrations. Built with Next.js, TypeScript, Supabase and Stripe.
+<h3><a href="https://queueup.quest"><picture><source media="(max-width: 800px)" srcset="./assets/projects/queueup-compact.png"><img src="./assets/projects/queueup.png" alt="QueueUp.quest — gaming platform. Payments, players and community integrations." width="1120"></picture></a></h3>
 
-### JARVIS / AI Infrastructure Lab
+Full-stack development for a gaming platform, including payments and community integrations.
 
-My self-hosted AI agent, JARVIS, runs on a dedicated Mini PC with Docker and Coolify. MCP integrations connect the agent to isolated development resources and deployment tools with scoped access.
+<p>
+  <img src="./assets/badges/nextjs.svg" alt="Next.js" height="30">
+  <img src="./assets/badges/typescript.svg" alt="TypeScript" height="30">
+  <img src="./assets/badges/supabase.svg" alt="Supabase" height="30">
+  <img src="./assets/badges/stripe.svg" alt="Stripe" height="30">
+  <img src="./assets/badges/wise.svg" alt="Wise" height="30">
+</p>
+
+<h3><picture><source media="(max-width: 800px)" srcset="./assets/projects/jarvis-compact.png"><img src="./assets/projects/jarvis.png" alt="JARVIS / Hermes — self-hosted AI agent. Personal AI infrastructure lab." width="1120"></picture></h3>
+
+My self-hosted agent, built on [Hermes](https://github.com/NousResearch/hermes-agent) and extended with modular graph memory, custom tools and Siri voice access.
+
+**Agent runtime**
+
+<p>
+  <a href="https://github.com/NousResearch/hermes-agent"><img src="./assets/badges/hermes.png" alt="Hermes Agent" height="30"></a>
+  <img src="./assets/badges/docker.svg" alt="Docker" height="30">
+  <img src="./assets/badges/coolify.svg" alt="Coolify" height="30">
+  <img src="./assets/badges/mcp.svg" alt="MCP" height="30">
+</p>
+
+**Models**
+
+<p>
+  <img src="./assets/badges/qwen.svg" alt="Primary LLM: Qwen 3.8 Flash Next" height="30">
+  <img src="./assets/badges/llama.svg" alt="Fallback LLM: Llama" height="30">
+  <img src="./assets/badges/minimax.svg" alt="Fallback LLM: MiniMax" height="30">
+</p>
+
+**Custom extensions**
+
+<p>
+  <img src="./assets/badges/graph-memory.svg" alt="Modular graph memory" height="30">
+  <img src="./assets/badges/notion.svg" alt="Notion integration" height="30">
+  <img src="./assets/badges/vr-dashboard.svg" alt="Custom VR dashboard" height="30">
+  <img src="./assets/badges/siri-shortcuts.svg" alt="Voice access through Siri Shortcuts on iPhone" height="30">
+</p>
+
+**Access & secrets**
+
+<p>
+  <img src="./assets/badges/zero-trust.svg" alt="Cloudflare Tunnels and Zero Trust with authentication codes" height="30">
+  <a href="https://infisical.com"><img src="./assets/badges/infisical.png" alt="Infisical — secrets management for the agent" height="30"></a>
+</p>
+
+<details>
+<summary>Connected tooling</summary>
+
+Infisical manages agent secrets. Remote access uses Cloudflare Tunnels and Zero Trust with authentication codes.
+
+<p>
+  <img src="./assets/badges/github.svg" alt="GitHub" height="30">
+  <img src="./assets/badges/vercel.svg" alt="Vercel" height="30">
+  <img src="./assets/badges/supabase.svg" alt="Supabase" height="30">
+  <img src="./assets/badges/cloudflare.svg" alt="Cloudflare" height="30">
+</p>
+
+</details>
 
 ## Core toolkit
 
-<img src="./assets/technology-stack.svg" alt="TypeScript, React, Next.js, Python, Docker, Supabase and MCP" width="1120">
+<picture>
+  <source media="(max-width: 800px)" srcset="./assets/technology-stack-compact.svg">
+  <img src="./assets/technology-stack.svg" alt="TypeScript, React, Next.js, Python, Docker, Supabase and MCP" width="1120">
+</picture>
