@@ -7,7 +7,7 @@
 
 I ship production SaaS end to end: Next.js/TypeScript, Laravel, Python, payments, CI/CD and self-hosted infra.
 
-Co-founder and tech lead at Fencode. Built SaleShow.app (99.8% uptime, sub-600 ms APIs) and QueueUp.quest (Stripe/Wise, Discord OAuth).
+Co-founder and tech lead at Fencode. Built SaleShow.app (B2B retail analytics for LATAM) and QueueUp.quest (Stripe/Wise, Discord OAuth).
 
 I build AI agents and agent tooling: MCP servers, [git-why](https://github.com/Blancochuy/git-why) (Go CLI for coding agents) and self-hosted LLM agents.
 
@@ -25,7 +25,7 @@ Monterrey, Mexico (UTC-6) · English C1 · Open to remote US roles: Full-Stack, 
 
 <h3><a href="https://saleshow.app"><picture><source media="(max-width: 800px)" srcset="./assets/projects/saleshow-compact.png"><img src="./assets/projects/saleshow.png" alt="SaleShow.app: B2B SaaS for LATAM. Architecture, APIs and product delivery." width="1120"></picture></a></h3>
 
-B2B SaaS for LATAM. Owned architecture, backend APIs, deployment and production support. Running at 99.8% uptime with sub-600 ms API response times.
+B2B SaaS for LATAM. Owned architecture, backend APIs, deployment and production support.
 
 <p>
   <img src="./assets/badges/architecture.svg" alt="Architecture" height="30">
